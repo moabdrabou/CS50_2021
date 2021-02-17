@@ -10,15 +10,17 @@ int main(void)
     do
     {
         initialSize = get_int("Start size: ");
-    } while (initialSize < 9);
+    }
+    while (initialSize < 9);
 
-     // Prompt for end size
+    // Prompt for end size
     int endSize;
 
     do
     {
         endSize = get_int("End size:");
-    } while (endSize < initialSize);
+    }
+    while (endSize < initialSize);
 
     // Calculate number of years until we reach threshold
 
