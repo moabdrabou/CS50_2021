@@ -7,6 +7,7 @@
    - [mario-less](https://github.com/moabdrabou/CS50_2021/blob/main/PSET1/mario-less/mario.c)
    - [mario-more](https://github.com/moabdrabou/CS50_2021/blob/main/PSET1/mario-more/mario.c)
    - [cash](https://github.com/moabdrabou/CS50x_2021/blob/main/PSET1/cash.c)
+   - [credit](https://github.com/moabdrabou/CS50_2021/blob/main/PSET1/credit.c)
 2. [**PSET2**](https://github.com/moabdrabou/CS50_2021/tree/main/PSET2)
    - [scrabble](https://github.com/moabdrabou/CS50_2021/blob/main/PSET2/scrabble.c)
    - [readability](https://github.com/moabdrabou/CS50_2021/blob/main/PSET2/readability.c)
