@@ -9,3 +9,4 @@
 2. [**PSET2**](https://github.com/moabdrabou/CS50_2021/tree/main/PSET2)
    - [scrabble](https://github.com/moabdrabou/CS50_2021/blob/main/PSET2/scrabble.c)
    - [readability](https://github.com/moabdrabou/CS50_2021/blob/main/PSET2/readability.c)
+   - [substitution](https://github.com/moabdrabou/CS50_2021/blob/main/PSET2/substitution.c)
