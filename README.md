@@ -6,3 +6,5 @@
    - [population](https://github.com/moabdrabou/CS50x_2021/blob/main/PSET1/population.c)
    - [mario-more](https://github.com/moabdrabou/CS50x_2021/blob/main/PSET1/mario.c)
    - [cash](https://github.com/moabdrabou/CS50x_2021/blob/main/PSET1/cash.c)
+2. [**PSET2**](https://github.com/moabdrabou/CS50_2021/tree/main/PSET2)
+   - [scrabble](https://github.com/moabdrabou/CS50_2021/blob/main/PSET2/scrabble.c)
