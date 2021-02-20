@@ -1,0 +1,4 @@
+Prompt the user to enter height
+Ask for the input again if it is less than 1 or more than 8
+Iterate through the input drawing the lines
+For every i of the input iterate making the dashes
