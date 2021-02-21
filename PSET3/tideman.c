@@ -38,6 +38,7 @@ void merge(int array[], int start, int middle, int end);
 void print_array(int array[], int array_size);
 bool check_cycle(int winner, int loser);
 
+
 int main(int argc, string argv[])
 {
     // Check for invalid usage
@@ -54,6 +55,8 @@ int main(int argc, string argv[])
         printf("Maximum number of candidates is %i\n", MAX);
         return 2;
     }
+
+    //updating candidates count
     for (int i = 0; i < candidate_count; i++)
     {
         candidates[i] = argv[i + 1];
@@ -68,6 +71,7 @@ int main(int argc, string argv[])
         }
     }
 
+    //Prompt for number of voters
     pair_count = 0;
     int voter_count = get_int("Number of voters: ");
 
@@ -80,6 +84,7 @@ int main(int argc, string argv[])
         // Query for each rank
         for (int j = 0; j < candidate_count; j++)
         {
+            //Prompting for rank
             string name = get_string("Rank %i: ", j + 1);
 
             if (!vote(j, name, ranks))
@@ -94,6 +99,7 @@ int main(int argc, string argv[])
         printf("\n");
     }
 
+    //Printing the winner
     add_pairs();
     sort_pairs();
     lock_pairs();
@@ -104,6 +110,7 @@ int main(int argc, string argv[])
 // Update ranks given a new vote
 bool vote(int rank, string name, int ranks[])
 {
+    //updating votes
     for (int candidate = 0; candidate < candidate_count; candidate++)
     {
         if (strcmp(name, candidates[candidate]) == 0)
@@ -118,10 +125,12 @@ bool vote(int rank, string name, int ranks[])
 // Update preferences given one voter's ranks
 void record_preferences(int ranks[])
 {
+    //initiating ranks
     int rank_1 = 0;
     int rank_2 = 0;
     for (int i = 0; i < candidate_count; i++)
     {
+        //updating ranks
         for (int j = i + 1; j < candidate_count; j++)
         {
             rank_1 = ranks[i];
@@ -218,6 +227,7 @@ void print_winner(void)
     }
 }
 
+//Comparison
 void create_strength_array(int strength[])
 {
     int winner;
@@ -243,6 +253,7 @@ void sort(int array[], int start, int end)
     }
 }
 
+//Merging the array
 void merge(int array[], int start, int middle, int end)
 {
     int i = start;
@@ -257,6 +268,7 @@ void merge(int array[], int start, int middle, int end)
 
     pair_temp pairs_temp[pair_count];
 
+    //setting conditions
     while (i <= middle && j <= end)
     {
         if (array[i] >= array[j])
@@ -296,7 +308,7 @@ void merge(int array[], int start, int middle, int end)
         pairs[i].loser = pairs_temp[i - start].loser;
     }
 }
-
+//Printing the array
 void print_array(int array[], int array_size)
 {
     for (int i = 0; i < array_size; i++)
@@ -306,6 +318,7 @@ void print_array(int array[], int array_size)
     printf("\n");
 }
 
+//Chekcing the results
 bool check_cycle(int winner, int loser)
 {
     if (locked[loser][winner] == true)
