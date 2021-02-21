@@ -16,3 +16,4 @@
 3. [**PSET3**](https://github.com/moabdrabou/CS50_2021/tree/main/PSET3)
    - [sort](https://github.com/moabdrabou/CS50_2021/blob/main/PSET3/answers.txt)
    - [plurality](https://github.com/moabdrabou/CS50_2021/blob/main/PSET3/plurality.c)
+   - [runoff](https://github.com/moabdrabou/CS50_2021/blob/main/PSET3/runoff.c)
