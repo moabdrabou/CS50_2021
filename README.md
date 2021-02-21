@@ -13,3 +13,5 @@
    - [readability](https://github.com/moabdrabou/CS50_2021/blob/main/PSET2/readability.c)
    - [caesar](https://github.com/moabdrabou/CS50_2021/blob/main/PSET2/caesar.c)
    - [substitution](https://github.com/moabdrabou/CS50_2021/blob/main/PSET2/substitution.c)
+3. [**PSET3**](https://github.com/moabdrabou/CS50_2021/tree/main/PSET3)
+   - [sort](https://github.com/moabdrabou/CS50_2021/blob/main/PSET3/answers.txt)
