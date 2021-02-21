@@ -17,3 +17,5 @@
    - [sort](https://github.com/moabdrabou/CS50_2021/blob/main/PSET3/answers.txt)
    - [plurality](https://github.com/moabdrabou/CS50_2021/blob/main/PSET3/plurality.c)
    - [runoff](https://github.com/moabdrabou/CS50_2021/blob/main/PSET3/runoff.c)
+   - [tideman](https://github.com/moabdrabou/CS50_2021/blob/main/PSET3/tideman.c)
+
