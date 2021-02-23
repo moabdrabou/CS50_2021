@@ -1,6 +1,7 @@
 #include <math.h>
 #include "helpers.h"
 
+//Prototype
 int cap255(int color);
 
 // Convert image to grayscale
@@ -12,6 +13,7 @@ void grayscale(int height, int width, RGBTRIPLE image[height][width])
     {
         for (int j = 0; j < width; j++)
         {
+            //Replacing the values
             originalRed = image[i][j].rgbtRed;
             originalGreen = image[i][j].rgbtGreen;
             originalBlue = image[i][j].rgbtBlue;
@@ -31,6 +33,7 @@ void grayscale(int height, int width, RGBTRIPLE image[height][width])
 // Convert image to sepia
 void sepia(int height, int width, RGBTRIPLE image[height][width])
 {
+    //defining elements
     int originalRed, originalGreen, originalBlue;
     int sephiaRed, sephiaGreen, sephiaBlue;
     for (int i = 0; i < height; i++)
@@ -41,6 +44,7 @@ void sepia(int height, int width, RGBTRIPLE image[height][width])
             originalGreen = image[i][j].rgbtGreen;
             originalBlue = image[i][j].rgbtBlue;
 
+            //Setting values
             sephiaRed = round(.393 * originalRed +
                               .769 * originalGreen +
                               .189 * originalBlue);
@@ -86,6 +90,7 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
 // Blur image
 void blur(int height, int width, RGBTRIPLE image[height][width])
 {
+    //Using the temp placement
     RGBTRIPLE temp_image[height][width];
     for (int h = 0; h < height; h++)
     {
@@ -99,6 +104,7 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
     {
         for (int j = 0; j < width; j++)
         {
+            //converting the sum values to float
             int count = 0;
             float sumRed = 0;
             float sumGreen = 0;
@@ -108,17 +114,17 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
             {
                 for (int l = -1; l < 2; l++)
                 {
-                    // Check if pixel is outside rows
+                    // Check if pixel is outside the rows
                     if (i + k < 0 || i + k >= height)
                     {
                         continue;
                     }
-                    // Check if pixel is outside columns
+                    // Check if pixel is outside the columns
                     if (j + l < 0 || j + l >= width)
                     {
                         continue;
                     }
-                    // Otherwise add to sums
+                    // Otherwise add to sum
                     sumRed += temp_image[i + k][j + l].rgbtRed;
                     sumGreen += temp_image[i + k][j + l].rgbtGreen;
                     sumBlue += temp_image[i + k][j + l].rgbtBlue;
@@ -133,6 +139,7 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
     }
 }
 
+//Checking the value to return color
 int cap255(int color)
 {
     if (color > 255)
