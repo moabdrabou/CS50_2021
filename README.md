@@ -21,3 +21,4 @@
 4. [**PSET4**](https://github.com/moabdrabou/CS50_2021/tree/main/PSET4)
    - [volume](https://github.com/moabdrabou/CS50_2021/blob/main/PSET4/Lab4/volume.c)
    - [filter-less](https://github.com/moabdrabou/CS50_2021/tree/main/PSET4/filter-less)
+   - [filter-more](https://github.com/moabdrabou/CS50_2021/tree/main/PSET4/filter-more)
