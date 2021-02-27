@@ -9,15 +9,20 @@ int main(int argc, char *argv[])
         printf("Usage: ./recover image");
         return 1;
     }
+
+    //Using file pointers to make the call
     FILE *card = fopen(argv[1], "r");
     unsigned char *buffer = malloc(512);
     if (buffer == NULL)
     {
         return 1;
     }
+
+    //Allocating memory
     char *filename = malloc(3 * sizeof(int));
     int photoCount = 0;
 
+//reading the raw file
     while (fread(buffer, sizeof(unsigned char), 512, card) == 512)
     {
         if (buffer[0] == 0xff && buffer[1] == 0xd8 && buffer[2] == 0xff && (buffer[3] & 0xf0) == 0xe0)
@@ -38,6 +43,8 @@ int main(int argc, char *argv[])
             }
             photoCount++;
         }
+
+        //recovering the photos
         else if (photoCount != 0)
         {
             FILE *imageFile = fopen(filename, "a");
@@ -46,6 +53,8 @@ int main(int argc, char *argv[])
         }
 
     }
+
+    //Freeing the allocated memory
     free(buffer);
     printf("contagem = %i\n", photoCount);
 }
