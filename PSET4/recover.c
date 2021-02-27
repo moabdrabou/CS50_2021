@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//setting arguments
 int main(int argc, char *argv[])
 {
     if (argc < 2)
