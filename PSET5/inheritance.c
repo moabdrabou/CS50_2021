@@ -1,4 +1,3 @@
-
 // Simulate genetic inheritance of blood type
 
 #include <stdbool.h>
