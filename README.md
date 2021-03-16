@@ -25,3 +25,4 @@
    - [recover](https://github.com/moabdrabou/CS50_2021/blob/main/PSET4/recover.c)
 5. [**PSET5**](https://github.com/moabdrabou/CS50_2021/tree/main/PSET5)
    - [inheritance](https://github.com/moabdrabou/CS50_2021/blob/main/PSET5/inheritance.c)
+   - [speller](https://github.com/moabdrabou/CS50_2021/tree/main/PSET5/Speller)
