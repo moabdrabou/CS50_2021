@@ -30,3 +30,4 @@
    - [tournament](https://github.com/moabdrabou/CS50_2021/blob/main/PSET6/World_Cup/tournament.py)
    - [hello](https://github.com/moabdrabou/CS50_2021/blob/main/PSET6/hello.py)
    - [mario-less](https://github.com/moabdrabou/CS50_2021/tree/main/PSET6/mario-less)
+   - [mario-more](https://github.com/moabdrabou/CS50_2021/tree/main/PSET6/mario-more)
