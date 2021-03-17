@@ -31,3 +31,4 @@
    - [hello](https://github.com/moabdrabou/CS50_2021/blob/main/PSET6/hello.py)
    - [mario-less](https://github.com/moabdrabou/CS50_2021/tree/main/PSET6/mario-less)
    - [mario-more](https://github.com/moabdrabou/CS50_2021/tree/main/PSET6/mario-more)
+   - [cash](https://github.com/moabdrabou/CS50_2021/blob/main/PSET6/cash.py)
