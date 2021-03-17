@@ -28,3 +28,4 @@
    - [speller](https://github.com/moabdrabou/CS50_2021/tree/main/PSET5/Speller)
 6. [**PSET6**](https://github.com/moabdrabou/CS50_2021/tree/main/PSET6)
    - [tournament](https://github.com/moabdrabou/CS50_2021/blob/main/PSET6/World_Cup/tournament.py)
+   - [hello](https://github.com/moabdrabou/CS50_2021/blob/main/PSET6/hello.py)
