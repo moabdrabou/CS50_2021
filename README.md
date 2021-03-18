@@ -32,3 +32,6 @@
    - [mario-less](https://github.com/moabdrabou/CS50_2021/tree/main/PSET6/mario-less)
    - [mario-more](https://github.com/moabdrabou/CS50_2021/tree/main/PSET6/mario-more)
    - [cash](https://github.com/moabdrabou/CS50_2021/blob/main/PSET6/cash.py)
+   - [credit](https://github.com/moabdrabou/CS50_2021/blob/main/PSET6/credit.py)
+   - [readability](https://github.com/moabdrabou/CS50_2021/blob/main/PSET6/readability.py)
+   - [dna](https://github.com/moabdrabou/CS50_2021/blob/main/PSET6/dna.py)
