@@ -12,9 +12,11 @@ def get_card():
         if card_number.isnumeric():
             break
 
+    # retuning the card number
     return card_number
 
 
+# odd number
 def calc_checksun(card_number):
     even_sum = 0
     odd_sum = 0
