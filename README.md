@@ -35,5 +35,5 @@
    - [credit](https://github.com/moabdrabou/CS50_2021/blob/main/PSET6/credit.py)
    - [readability](https://github.com/moabdrabou/CS50_2021/blob/main/PSET6/readability.py)
    - [dna](https://github.com/moabdrabou/CS50_2021/blob/main/PSET6/dna.py)
-7. [**PSET7**]()
+7. [**PSET7**](https://github.com/moabdrabou/CS50_2021/tree/main/PSET7)
    - [songs](https://github.com/moabdrabou/CS50_2021/tree/main/PSET7/Songs)
