@@ -1,0 +1,3 @@
+The thief is: Ernest
+The thief escaped to: London
+The accomplice is: Berthold
