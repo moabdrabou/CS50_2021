@@ -41,3 +41,4 @@
    - [fiftyville](https://github.com/moabdrabou/CS50_2021/tree/main/PSET7/fiftyville)
 8. [**PSET8**](https://github.com/moabdrabou/CS50_2021/tree/main/PSET8)
    - [trivia](https://github.com/moabdrabou/CS50_2021/tree/main/PSET8/Trivia)
+   - [homepage](https://github.com/moabdrabou/CS50_2021/tree/main/PSET8/homepage)
